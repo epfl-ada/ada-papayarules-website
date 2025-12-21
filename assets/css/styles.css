@@ -412,6 +412,14 @@ th {
   max-height: none !important;
 }
 
+/* Strip Leaflet's default white square behind divIcon markers */
+.leaflet-container .leaflet-div-icon,
+.leaflet-container .leaflet-marker-icon{
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 /* Mobile */
 @media (max-width: 900px){
   .scrolly{ grid-template-columns: 1fr; }
