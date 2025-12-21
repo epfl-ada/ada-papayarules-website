@@ -34,8 +34,8 @@ def build_page(layout_content, content_path, output_path, apply_markdown=True, b
     final_html = layout_content.replace('{{ content }}', content)
     
     # Fix Liquid tags
-    final_html = final_html.replace("{{ site.title | default: site.github.repository_name }}", "The Reddit Political Network")
-    final_html = final_html.replace("{{ site.github.owner_name }}", "ADA Team")
+    final_html = final_html.replace("{{ site.title | default: site.github.repository_name }}", "The Reddit Event Network")
+    final_html = final_html.replace("{{ site.github.owner_name }}", "PapayaRules")
     final_html = final_html.replace("{{ page.body_class | default: '' }}", body_class)
     
     # Fix assets
