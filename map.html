@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>The Reddit Political Network — Explorer</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Leaflet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <!-- World polygons -->
+    <script src="assets/js/world_data.js"></script>
+
+    <style>
+      body.map-page{
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow: hidden;
+      }
+
+      #map-banner{
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        height: 92px;
+        background: linear-gradient(135deg, #ff6b6b 0%, #556270 100%);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 2000;
+        padding: 0 20px;
+      }
+
+      #map-banner h1{
+        margin: 0 0 6px 0;
+        font-size: 1.45em;
+        color: white;
+      }
+
+      #map-banner p{
+        margin: 0;
+        opacity: 0.92;
+        font-size: 0.95em;
+      }
+
+      #map-banner .back-link{
+        position: absolute;
+        left: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgba(255,255,255,0.95);
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 0.95em;
+      }
+
+      #map-banner .back-link:hover{ color: white; }
+
+      #map-container{
+        position: fixed;
+        top: 92px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: calc(100vh - 92px);
+      }
+
+      #map{
+        width: 100%;
+        height: 100%;
+        background: #f0f0f0;
+      }
+
+      /* reuse panel styling from styles.css */
+      #analysis-panel{
+        position: absolute;
+        top: 14px;
+        right: 14px;
+      }
+    </style>
+  </head>
+
+  <body class="map-page">
+    <div id="map-banner">
+      <a href="index.html" class="back-link">← Back to Data Story</a>
+      <h1>Global Event Explorer</h1>
+      <p>Click on an event region or marker to see how it propagated through Reddit.</p>
+    </div>
+
+    <div id="map-container">
+      <div id="map"></div>
+
+      <div id="analysis-panel" class="analysis-panel" aria-live="polite" aria-label="Event details">
+        <button class="close-btn" id="panel-close" type="button" aria-label="Close panel">&times;</button>
+        <h2 id="panel-title">Event Title</h2>
+        <div class="event-meta" id="panel-date">Date • Category</div>
+
+        <div id="panel-content">
+          <p>Select an event to view details.</p>
+        </div>
+
+        <div id="panel-stats"></div>
+      </div>
+    </div>
+
+    <script src="assets/js/map_core.js"></script>
+
+    <script>
+      (function(){
+        const panel = document.getElementById("analysis-panel");
+        const titleEl = document.getElementById("panel-title");
+        const dateEl = document.getElementById("panel-date");
+        const contentEl = document.getElementById("panel-content");
+        const statsEl = document.getElementById("panel-stats");
+        const closeBtn = document.getElementById("panel-close");
+
+        const api = window.ADAEventMap.initEventMap({
+          containerId: "map",
+          panel, titleEl, dateEl, contentEl, statsEl, closeBtn,
+          mode: "standalone",
+          initialView: { center: [25, 10], zoom: 2 }
+        });
+
+        // Show panel on first open? Keep closed by default.
+        api.closePanel();
+      })();
+    </script>
+  </body>
+</html>
