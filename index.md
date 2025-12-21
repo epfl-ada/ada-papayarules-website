@@ -27,7 +27,7 @@ layout: full
 
     <div class="hero-cta-row">
       <a class="button button-ghost" href="map.html">Explore the map</a>
-      <a class="button button-ghost" href="./assets/notebook/results.ipynb">Notebook</a>
+      <a class="button button-ghost" href="https://github.com/epfl-ada/ada-2025-project-papayarules/blob/main/results.ipynb">Notebook</a>
     </div>
 
     <div class="hero-scroll-hint">
@@ -238,7 +238,7 @@ layout: full
       <div class="event-sections" id="event-sections"></div>
 
       <div class="event-footer">
-        <a class="button" href="./assets/notebook/results.ipynb">See methods in notebook</a>
+        <a class="button" href="https://github.com/epfl-ada/ada-2025-project-papayarules/blob/main/results.ipynb">See methods in notebook</a>
       </div>
     </aside>
 
@@ -265,7 +265,7 @@ layout: full
 <hr>
 
 <div class="footer-links">
-  <a href="./assets/notebook/results.ipynb" class="button">View the Jupyter Notebook</a>
+  <a href="https://github.com/epfl-ada/ada-2025-project-papayarules/blob/main/results.ipynb" class="button">View the Jupyter Notebook</a>
   <a href="https://github.com/epfl-ada/ada-2025-project-papayarules" class="button">GitHub Repository</a>
   <a href="map.html" class="button">Open the Explorer</a>
 
