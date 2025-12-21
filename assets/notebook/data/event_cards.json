@@ -1,0 +1,1144 @@
+[
+  {
+    "event": "Annexation of Crimea",
+    "category": "Political/Governance",
+    "start_date": "2014-02-22",
+    "end_date": "2014-03-18",
+    "window_start": "2014-02-15",
+    "window_end": "2014-04-01",
+    "matched_subreddits_count": 55,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "ukrainianconflict",
+      "ukraine",
+      "worldnews",
+      "russia",
+      "conspiratard"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 26,
+        "mean_link_sentiment": 0.8461538461538461,
+        "pos_ratio": 0.9230769230769231,
+        "neg_ratio": 0.07692307692307693,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "ukrainianconflict",
+          "score": 10.825822563472872,
+          "in_deg": 6,
+          "out_deg": 7,
+          "boundary_deg": 11
+        },
+        {
+          "subreddit": "ukraine",
+          "score": 4.30424928247473,
+          "in_deg": 6,
+          "out_deg": 1,
+          "boundary_deg": 5
+        },
+        {
+          "subreddit": "worldnews",
+          "score": 2.0494540786605286,
+          "in_deg": 1,
+          "out_deg": 3,
+          "boundary_deg": 4
+        },
+        {
+          "subreddit": "russia",
+          "score": 1.5999402932889186,
+          "in_deg": 1,
+          "out_deg": 3,
+          "boundary_deg": 3
+        },
+        {
+          "subreddit": "conspiratard",
+          "score": -0.10301090848385555,
+          "in_deg": 0,
+          "out_deg": 2,
+          "boundary_deg": 2
+        }
+      ],
+      "propagation_components": {
+        "V_event": 23,
+        "V_total": 3604,
+        "E_event": 26,
+        "E_cross": 22,
+        "E_window": 7730,
+        "reach": 0.006381798002219756,
+        "boundary_ratio": 0.8461538461538461,
+        "spillover_ratio": 0.0028460543337645535
+      }
+    },
+    "Propagation Score": 0.3017243863746666
+  },
+  {
+    "event": "Brexit Campaign & Referendum",
+    "category": "Political/Governance",
+    "start_date": "2016-02-20",
+    "end_date": "2016-06-23",
+    "window_start": "2016-02-13",
+    "window_end": "2016-07-07",
+    "matched_subreddits_count": 16,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "unitedkingdom",
+      "ukpolitics",
+      "subredditdrama",
+      "openbroke",
+      "iranian"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 87,
+        "mean_link_sentiment": 0.8850574712643678,
+        "pos_ratio": 0.9425287356321839,
+        "neg_ratio": 0.05747126436781609,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "unitedkingdom",
+          "score": 20.313764381616696,
+          "in_deg": 43,
+          "out_deg": 19,
+          "boundary_deg": 57
+        },
+        {
+          "subreddit": "ukpolitics",
+          "score": 8.058714649272524,
+          "in_deg": 24,
+          "out_deg": 6,
+          "boundary_deg": 24
+        },
+        {
+          "subreddit": "subredditdrama",
+          "score": 1.9168052589587872,
+          "in_deg": 0,
+          "out_deg": 6,
+          "boundary_deg": 6
+        },
+        {
+          "subreddit": "openbroke",
+          "score": 0.8934893988625272,
+          "in_deg": 0,
+          "out_deg": 4,
+          "boundary_deg": 4
+        },
+        {
+          "subreddit": "iranian",
+          "score": 0.44644729587676923,
+          "in_deg": 2,
+          "out_deg": 2,
+          "boundary_deg": 4
+        }
+      ],
+      "propagation_components": {
+        "V_event": 59,
+        "V_total": 11644,
+        "E_event": 87,
+        "E_cross": 81,
+        "E_window": 40387,
+        "reach": 0.005066987289591205,
+        "boundary_ratio": 0.9310344827586207,
+        "spillover_ratio": 0.002005595860053978
+      }
+    },
+    "Propagation Score": 0.29907857891557166
+  },
+  {
+    "event": "COP21 Climate Conference",
+    "category": "Climate/Environment",
+    "start_date": "2015-11-30",
+    "end_date": "2015-12-12",
+    "window_start": "2015-11-23",
+    "window_end": "2015-12-26",
+    "matched_subreddits_count": 14,
+    "Dominant Sentiment": "Neutral",
+    "Key Subreddits": [],
+    "debug": {
+      "sentiment": {
+        "n_links": 0,
+        "mean_link_sentiment": 0.0,
+        "pos_ratio": 0.0,
+        "neg_ratio": 0.0,
+        "label": "Neutral"
+      },
+      "key_subreddits": [],
+      "propagation_components": {
+        "V_event": 0,
+        "V_total": 4471,
+        "E_event": 0,
+        "E_cross": 0,
+        "E_window": 8199,
+        "reach": 0.0,
+        "boundary_ratio": 0.0,
+        "spillover_ratio": 0.0
+      }
+    },
+    "Propagation Score": -3.0364138491116295
+  },
+  {
+    "event": "COP22 Marrakech",
+    "category": "Climate/Environment",
+    "start_date": "2016-11-07",
+    "end_date": "2016-11-18",
+    "window_start": "2016-10-31",
+    "window_end": "2016-12-02",
+    "matched_subreddits_count": 15,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "climateskeptics",
+      "climatepatch",
+      "marketing",
+      "socialmedia",
+      "askreddit"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 4,
+        "mean_link_sentiment": 1.0,
+        "pos_ratio": 1.0,
+        "neg_ratio": 0.0,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "climateskeptics",
+          "score": 2.3086407533730116,
+          "in_deg": 0,
+          "out_deg": 2,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "climatepatch",
+          "score": 2.308640753373011,
+          "in_deg": 2,
+          "out_deg": 0,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "marketing",
+          "score": -1.1543203766865051,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "socialmedia",
+          "score": -1.1543203766865051,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "askreddit",
+          "score": -1.1543203766865053,
+          "in_deg": 1,
+          "out_deg": 0,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 6,
+        "V_total": 4716,
+        "E_event": 4,
+        "E_cross": 4,
+        "E_window": 8241,
+        "reach": 0.001272264631043257,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.00048537798810823927
+      }
+    },
+    "Propagation Score": -0.05756999077781161
+  },
+  {
+    "event": "Colombia–FARC Peace Accord",
+    "category": "Diplomacy",
+    "start_date": "2016-09-26",
+    "end_date": "2016-09-26",
+    "window_start": "2016-09-19",
+    "window_end": "2016-10-10",
+    "matched_subreddits_count": 6,
+    "Dominant Sentiment": "Neutral",
+    "Key Subreddits": [
+      "colombia",
+      "subredditdrama",
+      "unitedkingdom"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 2,
+        "mean_link_sentiment": 0.0,
+        "pos_ratio": 0.5,
+        "neg_ratio": 0.5,
+        "label": "Neutral"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "colombia",
+          "score": 2.8284271247461903,
+          "in_deg": 1,
+          "out_deg": 1,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "subredditdrama",
+          "score": -1.4142135623730947,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "unitedkingdom",
+          "score": -1.4142135623730947,
+          "in_deg": 1,
+          "out_deg": 0,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 3,
+        "V_total": 3647,
+        "E_event": 2,
+        "E_cross": 2,
+        "E_window": 5337,
+        "reach": 0.0008225939128050452,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.00037474236462432077
+      }
+    },
+    "Propagation Score": -0.11168298829317524
+  },
+  {
+    "event": "Cyclone Pam (Vanuatu)",
+    "category": "Disasters",
+    "start_date": "2015-03-13",
+    "end_date": "2015-03-14",
+    "window_start": "2015-03-06",
+    "window_end": "2015-03-28",
+    "matched_subreddits_count": 4,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "cyclonenation",
+      "collegebasketball"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 1,
+        "mean_link_sentiment": 1.0,
+        "pos_ratio": 1.0,
+        "neg_ratio": 0.0,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "cyclonenation",
+          "score": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "collegebasketball",
+          "score": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 2,
+        "V_total": 3341,
+        "E_event": 1,
+        "E_cross": 1,
+        "E_window": 5345,
+        "reach": 0.000598623166716552,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.00018709073900841907
+      }
+    },
+    "Propagation Score": -0.15964788036603944
+  },
+  {
+    "event": "Donald Trump Inauguration",
+    "category": "Political/Governance",
+    "start_date": "2017-01-20",
+    "end_date": "2017-01-20",
+    "window_start": "2017-01-13",
+    "window_end": "2017-02-03",
+    "matched_subreddits_count": 137,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "enoughtrumpspam",
+      "asktrumpsupporters",
+      "impeach_trump",
+      "trumpsc",
+      "help"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 52,
+        "mean_link_sentiment": 0.5384615384615384,
+        "pos_ratio": 0.7692307692307693,
+        "neg_ratio": 0.23076923076923078,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "enoughtrumpspam",
+          "score": 19.054293443056316,
+          "in_deg": 23,
+          "out_deg": 11,
+          "boundary_deg": 30
+        },
+        {
+          "subreddit": "asktrumpsupporters",
+          "score": 4.258413329864822,
+          "in_deg": 2,
+          "out_deg": 6,
+          "boundary_deg": 7
+        },
+        {
+          "subreddit": "impeach_trump",
+          "score": 1.0050377938483808,
+          "in_deg": 0,
+          "out_deg": 3,
+          "boundary_deg": 3
+        },
+        {
+          "subreddit": "trumpsc",
+          "score": 1.0050377938483808,
+          "in_deg": 0,
+          "out_deg": 3,
+          "boundary_deg": 3
+        },
+        {
+          "subreddit": "help",
+          "score": 0.20650338252257266,
+          "in_deg": 0,
+          "out_deg": 2,
+          "boundary_deg": 2
+        }
+      ],
+      "propagation_components": {
+        "V_event": 49,
+        "V_total": 3961,
+        "E_event": 52,
+        "E_cross": 48,
+        "E_window": 6363,
+        "reach": 0.01237061348144408,
+        "boundary_ratio": 0.9230769230769231,
+        "spillover_ratio": 0.007543611504007544
+      }
+    },
+    "Propagation Score": 1.7487868803755227
+  },
+  {
+    "event": "Ebola Outbreak",
+    "category": "Health/Public Health",
+    "start_date": "2014-03-01",
+    "end_date": "2016-01-14",
+    "window_start": "2014-02-22",
+    "window_end": "2016-01-28",
+    "matched_subreddits_count": 10,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "ebola",
+      "ebolahoax",
+      "news",
+      "ebolatard",
+      "ebolanewsbot"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 31,
+        "mean_link_sentiment": 0.8064516129032258,
+        "pos_ratio": 0.9032258064516129,
+        "neg_ratio": 0.0967741935483871,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "ebola",
+          "score": 11.835049718634243,
+          "in_deg": 12,
+          "out_deg": 7,
+          "boundary_deg": 15
+        },
+        {
+          "subreddit": "ebolahoax",
+          "score": 4.887847729547397,
+          "in_deg": 0,
+          "out_deg": 8,
+          "boundary_deg": 8
+        },
+        {
+          "subreddit": "news",
+          "score": 2.081090746272758,
+          "in_deg": 5,
+          "out_deg": 0,
+          "boundary_deg": 5
+        },
+        {
+          "subreddit": "ebolatard",
+          "score": 1.0563604396888318,
+          "in_deg": 0,
+          "out_deg": 5,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "ebolanewsbot",
+          "score": -0.20049416688801636,
+          "in_deg": 2,
+          "out_deg": 0,
+          "boundary_deg": 2
+        }
+      ],
+      "propagation_components": {
+        "V_event": 27,
+        "V_total": 23179,
+        "E_event": 31,
+        "E_cross": 27,
+        "E_window": 151660,
+        "reach": 0.0011648474912636438,
+        "boundary_ratio": 0.8709677419354839,
+        "spillover_ratio": 0.0001780298035078465
+      }
+    },
+    "Propagation Score": -0.47611645376579026
+  },
+  {
+    "event": "El Chapo Arrest",
+    "category": "Conflict/Security",
+    "start_date": "2014-02-22",
+    "end_date": "2014-02-22",
+    "window_start": "2014-02-15",
+    "window_end": "2014-03-08",
+    "matched_subreddits_count": 10,
+    "Dominant Sentiment": "Neutral",
+    "Key Subreddits": [],
+    "debug": {
+      "sentiment": {
+        "n_links": 0,
+        "mean_link_sentiment": 0.0,
+        "pos_ratio": 0.0,
+        "neg_ratio": 0.0,
+        "label": "Neutral"
+      },
+      "key_subreddits": [],
+      "propagation_components": {
+        "V_event": 0,
+        "V_total": 2233,
+        "E_event": 0,
+        "E_cross": 0,
+        "E_window": 3448,
+        "reach": 0.0,
+        "boundary_ratio": 0.0,
+        "spillover_ratio": 0.0
+      }
+    },
+    "Propagation Score": -3.0364138491116295
+  },
+  {
+    "event": "Fort McMurray Wildfire",
+    "category": "Disasters",
+    "start_date": "2016-05-01",
+    "end_date": "2016-05-31",
+    "window_start": "2016-04-24",
+    "window_end": "2016-06-14",
+    "matched_subreddits_count": 11,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "alberta",
+      "calgary",
+      "edmonton",
+      "subredditcancer",
+      "letsnotmeet"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 4,
+        "mean_link_sentiment": 0.5,
+        "pos_ratio": 0.75,
+        "neg_ratio": 0.25,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "alberta",
+          "score": 4.386484436567597,
+          "in_deg": 3,
+          "out_deg": 1,
+          "boundary_deg": 4
+        },
+        {
+          "subreddit": "calgary",
+          "score": -0.6859943405700354,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "edmonton",
+          "score": -0.6859943405700354,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "subredditcancer",
+          "score": -0.6859943405700354,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "letsnotmeet",
+          "score": -2.328501414857491,
+          "in_deg": 1,
+          "out_deg": 0,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 5,
+        "V_total": 6306,
+        "E_event": 4,
+        "E_cross": 4,
+        "E_window": 13794,
+        "reach": 0.000792895654931811,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.0002899811512251704
+      }
+    },
+    "Propagation Score": -0.12753559366659423
+  },
+  {
+    "event": "Iran Nuclear Deal (JCPOA) Signed",
+    "category": "Diplomacy",
+    "start_date": "2015-07-14",
+    "end_date": "2015-07-14",
+    "window_start": "2015-07-07",
+    "window_end": "2015-07-28",
+    "matched_subreddits_count": 26,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "iran",
+      "iranian",
+      "brasil",
+      "philippines",
+      "news"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 8,
+        "mean_link_sentiment": 1.0,
+        "pos_ratio": 1.0,
+        "neg_ratio": 0.0,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "iran",
+          "score": 6.393525433290977,
+          "in_deg": 2,
+          "out_deg": 4,
+          "boundary_deg": 6
+        },
+        {
+          "subreddit": "iranian",
+          "score": 0.5977169814453688,
+          "in_deg": 2,
+          "out_deg": 0,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "brasil",
+          "score": 0.0,
+          "in_deg": 1,
+          "out_deg": 1,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "philippines",
+          "score": 0.0,
+          "in_deg": 1,
+          "out_deg": 1,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "news",
+          "score": -1.448952112961402,
+          "in_deg": 1,
+          "out_deg": 0,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 8,
+        "V_total": 3798,
+        "E_event": 8,
+        "E_cross": 8,
+        "E_window": 5889,
+        "reach": 0.00210637177461822,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.001358464934623875
+      }
+    },
+    "Propagation Score": 0.1486816999326737
+  },
+  {
+    "event": "MH370 Disappearance",
+    "category": "Disasters",
+    "start_date": "2014-03-08",
+    "end_date": "2014-03-08",
+    "window_start": "2014-03-01",
+    "window_end": "2014-03-22",
+    "matched_subreddits_count": 12,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "aviation",
+      "mh370",
+      "circlebroke2",
+      "conspiracy",
+      "techwar"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 5,
+        "mean_link_sentiment": 1.0,
+        "pos_ratio": 1.0,
+        "neg_ratio": 0.0,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "aviation",
+          "score": 3.1612945251124156,
+          "in_deg": 2,
+          "out_deg": 1,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "mh370",
+          "score": 3.1612945251124156,
+          "in_deg": 2,
+          "out_deg": 1,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "circlebroke2",
+          "score": -1.188369876571849,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "conspiracy",
+          "score": -1.188369876571849,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "techwar",
+          "score": -1.188369876571849,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 6,
+        "V_total": 2356,
+        "E_event": 5,
+        "E_cross": 4,
+        "E_window": 3772,
+        "reach": 0.0025466893039049238,
+        "boundary_ratio": 0.8,
+        "spillover_ratio": 0.0010604453870625664
+      }
+    },
+    "Propagation Score": -0.4224331591154375
+  },
+  {
+    "event": "Nepal Earthquake",
+    "category": "Disasters",
+    "start_date": "2015-04-25",
+    "end_date": "2015-04-25",
+    "window_start": "2015-04-18",
+    "window_end": "2015-05-09",
+    "matched_subreddits_count": 11,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "nepal",
+      "bitcoinnepal",
+      "cfbofftopic",
+      "nepalearthquake",
+      "bitcoin"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 4,
+        "mean_link_sentiment": 1.0,
+        "pos_ratio": 1.0,
+        "neg_ratio": 0.0,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "nepal",
+          "score": 4.1815405503520555,
+          "in_deg": 1,
+          "out_deg": 1,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "bitcoinnepal",
+          "score": -0.6969234250586755,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "cfbofftopic",
+          "score": -0.6969234250586755,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "nepalearthquake",
+          "score": -0.6969234250586755,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "bitcoin",
+          "score": -0.6969234250586755,
+          "in_deg": 1,
+          "out_deg": 0,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 7,
+        "V_total": 3276,
+        "E_event": 4,
+        "E_cross": 4,
+        "E_window": 5068,
+        "reach": 0.002136752136752137,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.0007892659826361484
+      }
+    },
+    "Propagation Score": 0.06091828343430311
+  },
+  {
+    "event": "Obama Visits Cuba",
+    "category": "Diplomacy",
+    "start_date": "2016-03-20",
+    "end_date": "2016-03-20",
+    "window_start": "2016-03-13",
+    "window_end": "2016-04-03",
+    "matched_subreddits_count": 15,
+    "Dominant Sentiment": "Neutral",
+    "Key Subreddits": [],
+    "debug": {
+      "sentiment": {
+        "n_links": 0,
+        "mean_link_sentiment": 0.0,
+        "pos_ratio": 0.0,
+        "neg_ratio": 0.0,
+        "label": "Neutral"
+      },
+      "key_subreddits": [],
+      "propagation_components": {
+        "V_event": 0,
+        "V_total": 3776,
+        "E_event": 0,
+        "E_cross": 0,
+        "E_window": 6409,
+        "reach": 0.0,
+        "boundary_ratio": 0.0,
+        "spillover_ratio": 0.0
+      }
+    },
+    "Propagation Score": -3.0364138491116295
+  },
+  {
+    "event": "Rise of ISIS / Global Terrorism",
+    "category": "Conflict/Security",
+    "start_date": "2014-06-01",
+    "end_date": "2017-04-01",
+    "window_start": "2014-05-25",
+    "window_end": "2017-04-15",
+    "matched_subreddits_count": 19,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "jihadinfocus",
+      "islamicstate",
+      "unexpectedjihad",
+      "exmuslim",
+      "syriancivilwar"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 39,
+        "mean_link_sentiment": 0.23076923076923078,
+        "pos_ratio": 0.6153846153846154,
+        "neg_ratio": 0.38461538461538464,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "jihadinfocus",
+          "score": 12.50907295639141,
+          "in_deg": 11,
+          "out_deg": 6,
+          "boundary_deg": 15
+        },
+        {
+          "subreddit": "islamicstate",
+          "score": 5.861424050665025,
+          "in_deg": 4,
+          "out_deg": 5,
+          "boundary_deg": 7
+        },
+        {
+          "subreddit": "unexpectedjihad",
+          "score": 5.553082121174668,
+          "in_deg": 7,
+          "out_deg": 2,
+          "boundary_deg": 9
+        },
+        {
+          "subreddit": "exmuslim",
+          "score": 1.6081910065940028,
+          "in_deg": 2,
+          "out_deg": 2,
+          "boundary_deg": 4
+        },
+        {
+          "subreddit": "syriancivilwar",
+          "score": 1.2723678841966812,
+          "in_deg": 3,
+          "out_deg": 1,
+          "boundary_deg": 4
+        }
+      ],
+      "propagation_components": {
+        "V_event": 33,
+        "V_total": 33799,
+        "E_event": 39,
+        "E_cross": 37,
+        "E_window": 258513,
+        "reach": 0.000976360247344596,
+        "boundary_ratio": 0.9487179487179487,
+        "spillover_ratio": 0.0001431262644431808
+      }
+    },
+    "Propagation Score": -0.27940277734258867
+  },
+  {
+    "event": "Turkish Coup Attempt",
+    "category": "Conflict/Security",
+    "start_date": "2016-07-15",
+    "end_date": "2016-07-15",
+    "window_start": "2016-07-08",
+    "window_end": "2016-07-29",
+    "matched_subreddits_count": 18,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "turkey",
+      "de",
+      "amateurradio",
+      "arabs",
+      "copypasta"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 10,
+        "mean_link_sentiment": 0.4,
+        "pos_ratio": 0.7,
+        "neg_ratio": 0.3,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "turkey",
+          "score": 5.962847939999439,
+          "in_deg": 9,
+          "out_deg": 1,
+          "boundary_deg": 10
+        },
+        {
+          "subreddit": "de",
+          "score": 0.0,
+          "in_deg": 1,
+          "out_deg": 1,
+          "boundary_deg": 2
+        },
+        {
+          "subreddit": "amateurradio",
+          "score": -0.7453559924999299,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "arabs",
+          "score": -0.7453559924999299,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "copypasta",
+          "score": -0.7453559924999299,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 10,
+        "V_total": 3865,
+        "E_event": 10,
+        "E_cross": 10,
+        "E_window": 5823,
+        "reach": 0.00258732212160414,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.001717327837884252
+      }
+    },
+    "Propagation Score": 0.244689998495265
+  },
+  {
+    "event": "UN Climate Summit (NYC)",
+    "category": "Climate/Environment",
+    "start_date": "2014-09-23",
+    "end_date": "2014-09-23",
+    "window_start": "2014-09-16",
+    "window_end": "2014-10-07",
+    "matched_subreddits_count": 14,
+    "Dominant Sentiment": "Negative",
+    "Key Subreddits": [
+      "skeptic",
+      "climateskeptics"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 1,
+        "mean_link_sentiment": -1.0,
+        "pos_ratio": 0.0,
+        "neg_ratio": 1.0,
+        "label": "Negative"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "skeptic",
+          "score": 0.0,
+          "in_deg": 0,
+          "out_deg": 1,
+          "boundary_deg": 1
+        },
+        {
+          "subreddit": "climateskeptics",
+          "score": 0.0,
+          "in_deg": 1,
+          "out_deg": 0,
+          "boundary_deg": 1
+        }
+      ],
+      "propagation_components": {
+        "V_event": 2,
+        "V_total": 2576,
+        "E_event": 1,
+        "E_cross": 1,
+        "E_window": 3829,
+        "reach": 0.0007763975155279503,
+        "boundary_ratio": 1.0,
+        "spillover_ratio": 0.00026116479498563595
+      }
+    },
+    "Propagation Score": -0.13344569503924303
+  },
+  {
+    "event": "US Presidential Campaign",
+    "category": "Political/Governance",
+    "start_date": "2015-06-16",
+    "end_date": "2016-11-08",
+    "window_start": "2015-06-09",
+    "window_end": "2016-11-22",
+    "matched_subreddits_count": 954,
+    "Dominant Sentiment": "Positive",
+    "Key Subreddits": [
+      "sandersforpresident",
+      "politics",
+      "enoughtrumpspam",
+      "minnesotavikings",
+      "asktrumpsupporters"
+    ],
+    "debug": {
+      "sentiment": {
+        "n_links": 4692,
+        "mean_link_sentiment": 0.8162830349531117,
+        "pos_ratio": 0.9081415174765558,
+        "neg_ratio": 0.09185848252344415,
+        "label": "Positive"
+      },
+      "key_subreddits": [
+        {
+          "subreddit": "sandersforpresident",
+          "score": 61.041022725840406,
+          "in_deg": 689,
+          "out_deg": 274,
+          "boundary_deg": 437
+        },
+        {
+          "subreddit": "politics",
+          "score": 54.10755419534411,
+          "in_deg": 746,
+          "out_deg": 55,
+          "boundary_deg": 662
+        },
+        {
+          "subreddit": "enoughtrumpspam",
+          "score": 19.154542945369442,
+          "in_deg": 156,
+          "out_deg": 86,
+          "boundary_deg": 203
+        },
+        {
+          "subreddit": "minnesotavikings",
+          "score": 18.17066274052479,
+          "in_deg": 82,
+          "out_deg": 113,
+          "boundary_deg": 187
+        },
+        {
+          "subreddit": "asktrumpsupporters",
+          "score": 16.191896209738335,
+          "in_deg": 56,
+          "out_deg": 123,
+          "boundary_deg": 137
+        }
+      ],
+      "propagation_components": {
+        "V_event": 1299,
+        "V_total": 23858,
+        "E_event": 4692,
+        "E_cross": 3865,
+        "E_window": 140018,
+        "reach": 0.054447145611534915,
+        "boundary_ratio": 0.8237425404944586,
+        "spillover_ratio": 0.027603593823651244
+      }
+    },
+    "Propagation Score": 8.07319625817356
+  }
+]

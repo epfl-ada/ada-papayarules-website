@@ -1,6 +1,3 @@
----
-layout: full
----
 <!doctype html>
 <html>
   <head>
@@ -11,7 +8,8 @@ layout: full
     <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
   </head>
-  <body>
+  <body class="{{ page.body_class | default: '' }}">
+
     <div class="wrapper">
 
       {{ content }}

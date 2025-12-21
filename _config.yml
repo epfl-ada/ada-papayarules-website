@@ -1,9 +1,9 @@
 theme: jekyll-theme-minimal
-title: ADA PapayaRules Website
-description: The PapayaRules website for ADA
-show_downloads: True
+title: The Reddit Political Network
+description: How Global Events Ripple Through Online Communities — An ADA Data Story
+show_downloads: false
 navigation:
-  - title: Home
+  - title: Data Story
     url: /
-  - title: Example
-    url: example
+  - title: GitHub Repo
+    url: https://github.com/epfl-ada/ada-2025-project-papayarules
