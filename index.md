@@ -127,7 +127,6 @@ layout: full
       </div>
 
       <div class="scrolly-actions">
-        <button class="pill" id="btn-home" type="button" title="Return to story panel">Story</button>
         <button class="pill" id="btn-reset" type="button" title="Reset map view">Reset</button>
         <a class="pill pill-link" href="map.html" title="Open standalone explorer">Explorer</a>
       </div>
